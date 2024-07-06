@@ -1,4 +1,4 @@
-# ReactJs
+# Dynamic UI - Reusable React Components
 # To create a vite - app
         npm create vite@4.1.0
 
