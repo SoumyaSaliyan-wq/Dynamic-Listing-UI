@@ -3,7 +3,8 @@ import ListGroup from "./components/ListGroup";
 import Alert from "./components/Alert";
 import Button from "./components/Button";
 import Navbar from "./components/Navbar";
-import data from "./countries"
+
+import { Outlet } from "react-router";
 function App() {
   const items = ["New York", "England", "Sanfrancisco"];
   const handleSelectedItem = (item: string) => {
@@ -11,12 +12,14 @@ function App() {
   };
   return (
     <div className="container">
-      <ListGroup
+      <Navbar/>
+      <Outlet/>
+      {/* <ListGroup
         items={data}
         heading="Cities"
         onSelectedItem={handleSelectedItem}
       >
-      </ListGroup>
+      </ListGroup> */}
       {/* <Alert>
         Hi There!
       </Alert> */}

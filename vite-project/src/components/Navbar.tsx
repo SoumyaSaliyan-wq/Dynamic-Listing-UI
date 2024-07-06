@@ -3,9 +3,9 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          {/* <a className="navbar-brand" href="#">
             Navbar
-          </a>
+          </a> */}
           <button
             className="navbar-toggler"
             type="button"
@@ -20,16 +20,16 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="navbar-brand nav-link active" aria-current="page" href="home">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Features
+                <a className="nav-link" href="city">
+                  Cities
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#">
                   Pricing
                 </a>
@@ -38,7 +38,7 @@ function Navbar() {
                 <a className="nav-link disabled" href="#" aria-disabled="true">
                   Disabled
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
