@@ -3,8 +3,8 @@ import ListGroup from "./components/ListGroup";
 import Alert from "./components/Alert";
 import Button from "./components/Button";
 import Navbar from "./components/Navbar";
-
 import { Outlet } from "react-router";
+
 function App() {
   const items = ["New York", "England", "Sanfrancisco"];
   const handleSelectedItem = (item: string) => {

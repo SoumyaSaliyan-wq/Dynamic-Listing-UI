@@ -4,6 +4,7 @@ import App from './App'
 import 'bootstrap/dist/css/bootstrap.css'
 import {Router} from "./Routes/Router"
 import { RouterProvider } from 'react-router-dom'
+import './App.css'
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <RouterProvider router={Router}>

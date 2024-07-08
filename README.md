@@ -9,3 +9,7 @@ To Deploy Locally
         npm i 
 
         npm run dev 
+
+
+To run Json Server 
+        npx json-server --watch '.\vite-project\data\db .json' --port 8000

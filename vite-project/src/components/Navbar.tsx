@@ -1,7 +1,6 @@
 function Navbar() {
   return (
-    <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container-fluid">
           {/* <a className="navbar-brand" href="#">
             Navbar
@@ -25,25 +24,24 @@ function Navbar() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="city">
+                <a className="nav-link" href="city" style={{ }}>
                   Cities
                 </a>
               </li>
-              {/* <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Pricing
+              <li className="nav-item">
+                <a className="nav-link" href="blogs">
+                  Blogs
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link disabled" href="#" aria-disabled="true">
                   Disabled
                 </a>
-              </li> */}
+              </li>
             </ul>
           </div>
         </div>
       </nav>
-    </>
   );
 }
 export default Navbar;
