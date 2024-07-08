@@ -5,6 +5,7 @@ import Home from "../Pages/Home";
 import Blogs from "../Pages/Blogs";
 import BlogDetailPage from "../Pages/BlogList";
 import AddNewBlog from "../components/AddNewBlog";
+import NotFound from "../components/NotFound";
 
 export  const Router=createBrowserRouter([
     {
@@ -15,7 +16,8 @@ export  const Router=createBrowserRouter([
             {path:'home',element:<Home></Home>},
             {path:'blogs',element:<Blogs></Blogs>},
             {path:'blogs/:id',element:<BlogDetailPage></BlogDetailPage>},
-            {path:'blogs/create',element:<AddNewBlog></AddNewBlog>}
+            {path:'blogs/create',element:<AddNewBlog></AddNewBlog>},
+            {path:"*",element:<NotFound></NotFound>}
 
         ]
     }
